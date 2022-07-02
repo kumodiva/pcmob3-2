@@ -1,3 +1,4 @@
+
 import { NavigationContainer } from "@react-navigation/native";
 import React from "react";
 import { StyleSheet } from "react-native";
@@ -24,6 +25,3 @@ export default function App() {
    </NavigationContainer>
  );
 }
-
-
-

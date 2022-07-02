@@ -52,9 +52,7 @@ export default function NotesScreen({ navigation }) {
  return (
    <View style={styles.container}>
      <FlatList
-       style={{ 
-        width: "100%",
-        }}
+       style={{ width: "100%" }}
        data={notes}
        renderItem={renderItem}
      />
@@ -64,11 +62,11 @@ export default function NotesScreen({ navigation }) {
 
 const styles = StyleSheet.create({
  container: {
-  flexDirection: 'row',
-  marginHorizontal: 20,
+   flex: 1,
+   backgroundColor: "#ffc",
+   alignItems: "center",
+   justifyContent: "center",
  },
- 
- 
 });
 
 
